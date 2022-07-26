@@ -15,8 +15,8 @@ to different actions, or events:
   ``onShow`` and ``onClose``.
 - Button, RadioButton, and Checkbox controls generate events when the user clicks within the control
   bounds. To handle the event, define a callback function for :ref:`control-event-onclick`.
-- EditText, Scrollbar, and Slider controls generate events when the content or value changes-that is,
-  when the user types into an edit field, or moves the scroll or slider indicator. To handle these events,
+- EditNumber, EditText, Scrollbar, and Slider controls generate events when the content or value changes-that
+  is, when the user types into an edit field, or moves the scroll or slider indicator. To handle these events,
   define callback functions for :ref:`control-event-onchange` and :ref:`control-event-onchanging`.
 - ListBox, DropDownList, and TreeView controls generate events whenever the selection in the list
   changes. To handle the event, define a callback function for :ref:`control-event-onchange`.
@@ -95,6 +95,7 @@ The following controls generate the ``onClick`` event:
 The following controls generate the ``onChange`` event:
 
 - ``DropDownList``
+- ``EditNumber``
 - ``EditText``
 - ``ListBox``
 - ``Scrollbar``
@@ -103,6 +104,7 @@ The following controls generate the ``onChange`` event:
 
 The following controls generate the ``onChanging`` event:
 
+- ``EditNumber``
 - ``EditText``
 - ``Scrollbar``
 - ``Slider``
